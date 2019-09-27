@@ -25,8 +25,8 @@ export default class Page2 extends React.Component{
       <Text style={styles.container}>เรากำลังเรียนหนังสือ ‫نحن نتعلم.</Text>
       <Text style={styles.container}>เรากำลังทำอะไรอยู่?  ماذا سنفعل؟</Text>
       <Text style={styles.container}>นั่นคือคุณครู   . هذه هي المُعلمة.</Text>
-      
-      <Image source={require('./meet.jpg')} style={{ width: 350, height: 350 }} />
+    
+      <Image source={require('./sp.jpg')} style={{ width: 350, height: 350 }} />
       <Button title="next" style={styles.container}  onPress={() => navigate('Home')}/>  
     </View>
 
