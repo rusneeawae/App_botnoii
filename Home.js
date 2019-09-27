@@ -15,8 +15,8 @@ export default class Home extends React.Component{
 
     <View style={styles.container}>
       <Text style={styles.container}>ARABIC ONE WORD A DAY</Text>
-      <Image source={require('./profi.jpg')} style={{ width: 300, height: 300 }} />
-      <Image source={require('./profi.jpg')} style={{ width: 300, height: 300 }} />
+      <Image source={require('./profi.jpg')} style={{ width: 250, height: 250 }} />
+      <Image source={require('./pro1.jpg')} style={{ width: 300, height: 300 }} />
       <Button title="Click" style={{ width: 300, height:500 }}  onPress={() => navigate('Page1')}/>  
     </View>
 
