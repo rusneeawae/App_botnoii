@@ -17,7 +17,7 @@ export default class Page2 extends React.Component{
 
     <View style={styles.container}>
       <Text style={styles.container}>"การสนทนาที่โรงเรียน"</Text>
-      <Text style={styles.container}>เราอยู่ที่ไหน?                           ‫أين نحن </Text>
+      <Text style={styles.container}>เราอยู่ที่ไหน?             ‫أين نحن </Text>
       <Text style={styles.container}>เราอยู่ที่โรงเรียน    ‫نحن في المدرسة.</Text>
       <Text style={styles.container}>ผม / ดิฉัน เรียนภาษาอังกฤษ ‫أنا أتعلم الإنجليزية.</Text>
       <Text style={styles.container}>นั่นคือนักเรียน   . هؤلاء هم التلاميذ</Text>
