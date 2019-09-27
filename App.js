@@ -1,19 +1,17 @@
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { createStackNavigator } from 'react-navigation-stack';
+import { createAppContainer } from "react-navigation";
+import Home from './Home';
+import Page1 from './Page1';
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Openkkfgit  to stafffffff on your app!</Text>
-    </View>
-  );
-}
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
+const Images = createStackNavigator({
+
+  Home: { screen: Home },
+  Page1: { screen: Page1 },
+  
 });
+
+const App = createAppContainer(Images);
+
+
+export default App; 
