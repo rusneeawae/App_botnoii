@@ -18,15 +18,14 @@ export default class Page2 extends React.Component{
     <View style={styles.container}>
       <Text style={styles.container}>"การสนทนาที่โรงเรียน"</Text>
       <Text style={styles.container}>เราอยู่ที่ไหน?                           ‫أين نحن </Text>
-      <Text style={styles.container}>สบายดีไหม ครับ / สบายดีไหม ค่ะ?     ‫‫كبف الحال؟ / كيف حالك؟</Text>
-      <Text style={styles.container}>คุณมาจากยุโรปใช่ไหม ครับ / ค่ะ?          هل أنت من أوروبا؟</Text>
-      <Text style={styles.container}>คุณพักอยู่โรงแรมอะไร ครับ/ ค่ะ?          ‫في أي فندق تقيم؟</Text>
-      <Text style={styles.container}>คุณอยู่ที่นี่นานเท่าไหร่แล้ว ครับ / ค่ะ?      ‫مذ متى أنت هنا؟</Text>
-      <Text style={styles.container}>คุณชอบที่นี่ไหม ครับ / ค่ะ?      ‫‫أتعجبك الإقامة هنا؟</Text>
-      <Text style={styles.container}>คุณมาพักร้อนที่นี่ใช่ไหม ครับ / ค่ะ?      ‫أتقضي عطلتك هنا؟</Text>
-      <Text style={styles.container}>มาเยี่ยม ผมบ้างนะครับ / มาเยี่ยม ดิฉันบ้างนะค่ะ   ‫تفضل بزيارتي!</Text>
-      <Text style={styles.container}>เราพบกันพรุ่งนี้ดีไหมครับ / ค่ะ?      هل سنلتقي غدا</Text>
-      <Text style={styles.container}>คุณมาพักร้อนที่นี่ใช่ไหม ครับ / ค่ะ?      ‫أتقضي عطلتك هنا؟</Text>
+      <Text style={styles.container}>เราอยู่ที่โรงเรียน    ‫نحن في المدرسة.</Text>
+      <Text style={styles.container}>ผม / ดิฉัน เรียนภาษาอังกฤษ ‫أنا أتعلم الإنجليزية.</Text>
+      <Text style={styles.container}>นั่นคือนักเรียน   . هؤلاء هم التلاميذ</Text>
+      <Text style={styles.container}>เรากำลังเรียนภาษา  ‫إننا نتعلم لغة.</Text>
+      <Text style={styles.container}>เรากำลังเรียนหนังสือ ‫نحن نتعلم.</Text>
+      <Text style={styles.container}>เรากำลังทำอะไรอยู่?  ماذا سنفعل؟</Text>
+      <Text style={styles.container}>นั่นคือคุณครู   . هذه هي المُعلمة.</Text>
+      
       <Image source={require('./meet.jpg')} style={{ width: 200, height: 200 }} />
       <Button title="next" style={styles.container}  onPress={() => navigate('Home')}/>  
     </View>
