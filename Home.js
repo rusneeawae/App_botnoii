@@ -1,6 +1,5 @@
 import React from 'react';
 import { StyleSheet, Text, View, Button, Image } from 'react-native';
-
 export default class Home extends React.Component{
 
 
@@ -17,7 +16,8 @@ export default class Home extends React.Component{
     <View style={styles.container}>
       <Text style={styles.container}>ARABIC ONE WORD A DAY</Text>
       <Image source={require('./profi.jpg')} style={{ width: 300, height: 300 }} />
-      <Button title="Click" style={{ width: 300, height: 300 }}  onPress={() => navigate('Page1')}/>  
+      <Image source={require('./profi.jpg')} style={{ width: 300, height: 300 }} />
+      <Button title="Click" style={{ width: 300, height:500 }}  onPress={() => navigate('Page1')}/>  
     </View>
 
   );
