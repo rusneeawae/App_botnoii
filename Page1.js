@@ -15,7 +15,7 @@ export default class Page1 extends React.Component{
     return (
 
     <View style={styles.container}>
-      <Text style={styles.container}>การทำความรู้จัก</Text>
+      <Text style={styles.container}>"การทำความรู้จัก"</Text>
       <Text style={styles.container}>สวัสดีครับ! / สวัสดีค่ะ!                             ‫مرحبًا!‬ </Text>
       <Text style={styles.container}>สบายดีไหม ครับ / สบายดีไหม ค่ะ?     ‫‫كبف الحال؟ / كيف حالك؟</Text>
       <Text style={styles.container}>คุณมาจากยุโรปใช่ไหม ครับ / ค่ะ?          هل أنت من أوروبا؟</Text>
@@ -26,8 +26,10 @@ export default class Page1 extends React.Component{
       <Text style={styles.container}>มาเยี่ยม ผมบ้างนะครับ / มาเยี่ยม ดิฉันบ้างนะค่ะ   ‫تفضل بزيارتي!</Text>
       <Text style={styles.container}>เราพบกันพรุ่งนี้ดีไหมครับ / ค่ะ?      هل سنلتقي غدا</Text>
       <Text style={styles.container}>คุณมาพักร้อนที่นี่ใช่ไหม ครับ / ค่ะ?      ‫أتقضي عطلتك هنا؟</Text>
-      <Image source={require('./meet.jpg')} style={{ width: 200, height: 200 }} />
-      <Button title="next" style={styles.container}  onPress={() => navigate('Home')}/>  
+      <Text style={styles.container}>ลาก่อนครับ! / ลาก่อนค่ะ!      ‫‫وداعاً!</Text>
+      <Text style={styles.container}>คุณมาพักร้อนที่นี่ใช่ไหม ครับ / ค่ะ?      ‫أتقضي عطلتك هنا؟</Text>
+      <Image source={require('./meet.jpg')} style={{ width: 350, height: 350 }} />
+      <Button title="next" style={styles.container}  onPress={() => navigate('Page2')}/>  
     </View>
 
   );
